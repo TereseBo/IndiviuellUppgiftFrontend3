@@ -1,9 +1,65 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "mushrooms": [
+    {
+      "name1": "Tegelkremla",
+      "name2": "Russula decolorans",
+      "image": "https://images.unsplash.com/photo-1665346444351-e85e1248a3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+      "description": "Hattfärgen varierar något kring tegelröd. Grånande fot med åldern. ",
+      "id": 2
+    },
+    {
+      "name1": "Gulkremla",
+      "name2": "Russula claroflava",
+      "description": "Kraftigt klargul hatt och vit fot. Köttet grånande med ålder. ",
+      "image": "https://images.unsplash.com/photo-1634142894671-be863247f5a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "id": 3
+    },
+    {
+      "name1": " Sillkremla",
+      "name2": "Russula xerampelina",
+      "description": "Varierande hattfärg från rött till olivgrönt. Vit fot, ofta med röda inslag. Karakteristisk lukt av skaldjur.",
+      "image": "https://images.unsplash.com/photo-1600427488804-ece8c13bbf99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "id": 4
+    },
+    {
+      "name1": "Blodsopp",
+      "name2": "Neoboletus luridiformis",
+      "family": "Soppar",
+      "image": "https://images.unsplash.com/photo-1600010437709-10176a56ea45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9sZXR1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "description": "Oliv eller mörkbrun hatt, fot täckt av små röda prickar.",
+      "id": 5
+    },
+    {
+      "name1": "Grynsopp",
+      "name2": "Suillus granulatus",
+      "family": "Soppar",
+      "image": "https://images.unsplash.com/photo-1595669994887-c202e84f06da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ym9sZXR1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "description": "Hatt brungul till rödgul, slemmig vid regn. Vitgul fot med små vita gryn övertill, grynen mörknar med ålder.",
+      "id": 6
+    },
+    {
+      "name1": "Sandsopp",
+      "name2": "Suillus variegatus",
+      "family": "Soppar",
+      "image": "https://images.unsplash.com/photo-1597642083528-b90f8aea3e80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym9sZXR1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "description": "Gulbrun hatt med karaktäristiska mörkare fjäll. Fot i samma färg som hatt, ofta blånande vid snitt.",
+      "id": 7
+    },
+    {
+      "name1": "Smörsopp",
+      "name2": "Suillus luteus",
+      "family": "Soppar",
+      "image": "https://images.unsplash.com/photo-1607031145007-65c132b175ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJvbGV0dXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "description": "Välvd, ofta slemmig brunaktig hatt. Fot vit till gul med ring som ibland försvinner med åldern.",
+      "id": 8
+    },
+    {
+      "name1": "Stensopp",
+      "name2": "Boletus edulis",
+      "family": "Soppar",
+      "image": "https://images.unsplash.com/photo-1637600425532-917791442bd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJvbGV0dXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "description": "Hatt ljus till mörkbrun. Fot vit till ljusbrun täckt med ett ljust ådernät.",
+      "id": 9
+    }
+  ]
+}

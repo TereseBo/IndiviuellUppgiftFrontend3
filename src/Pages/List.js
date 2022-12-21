@@ -1,4 +1,5 @@
+
 function List(){
-    return( <h1>Liat</h1>)
+    return( <h1>List</h1>)
 }
 export default List;
