@@ -1,22 +1,9 @@
 {
   "mushrooms": [
     {
-      "name1": "Tegelkremla",
-      "name2": "Russula decolorans",
-      "image": "https://images.unsplash.com/photo-1665346444351-e85e1248a3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-      "description": "Hattfärgen varierar något kring tegelröd. Grånande fot med åldern. ",
-      "id": 2
-    },
-    {
-      "name1": "Gulkremla",
-      "name2": "Russula claroflava",
-      "description": "Kraftigt klargul hatt och vit fot. Köttet grånande med ålder. ",
-      "image": "https://images.unsplash.com/photo-1634142894671-be863247f5a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      "id": 3
-    },
-    {
       "name1": " Sillkremla",
       "name2": "Russula xerampelina",
+      "family": "Kremlor",
       "description": "Varierande hattfärg från rött till olivgrönt. Vit fot, ofta med röda inslag. Karakteristisk lukt av skaldjur.",
       "image": "https://images.unsplash.com/photo-1600427488804-ece8c13bbf99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       "id": 4
@@ -60,6 +47,22 @@
       "image": "https://images.unsplash.com/photo-1637600425532-917791442bd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJvbGV0dXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
       "description": "Hatt ljus till mörkbrun. Fot vit till ljusbrun täckt med ett ljust ådernät.",
       "id": 9
+    },
+    {
+      "name1": "Tegelkremla",
+      "name2": "Russula decolorans",
+      "family": "Kremlor",
+      "description": "Hatt tegelröd till gulaktig. Kött grånande med åldern.",
+      "image": "https://images.unsplash.com/photo-1633859221184-7e40c3a7356a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cnVzc3VsYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "id": 10
+    },
+    {
+      "name1": "Gulkremla",
+      "name2": "Russula claroflava",
+      "family": "Kremlor",
+      "description": "Karaktäristisk gul hatt, vit spröd fot.",
+      "image": "https://images.unsplash.com/photo-1634142894671-be863247f5a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cnVzc3VsYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "id": 11
     }
   ]
 }

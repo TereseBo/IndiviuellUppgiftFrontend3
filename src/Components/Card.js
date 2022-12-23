@@ -2,7 +2,6 @@ import './Card.scss'
 import { Link } from "react-router-dom";
 import { Children } from 'react';
 function Card({ mushroom, children }) {
-    console.log(children)
     return (
         <div className="card">
             <div className="image-container">
