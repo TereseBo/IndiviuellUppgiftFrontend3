@@ -28,7 +28,7 @@ function List() {
 
     return (
         <div>
-            <FilterMenu filtered={filtered} setFilter={setFiltered} data={data} filterOptions={filterOptions}/>
+            <FilterMenu filtered={filtered} setFilter={setFiltered} data={data} setData={setData} filterOptions={filterOptions}/>
         <ul>
             {filtered.map((item) => (
                 <li key={item.id}>
