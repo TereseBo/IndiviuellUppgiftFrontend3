@@ -7,6 +7,7 @@ function List() {
     const [data, setData] = useState([]);
     const [filtered, setFiltered] = useState([]);
     const[filterOptions, setFilterOptions] = useState([]);
+
    
     useEffect(() => {
         async function fetchData() {
@@ -28,7 +29,7 @@ function List() {
 
     return (
         <div>
-            <FilterMenu filtered={filtered} setFilter={setFiltered} data={data} setData={setData} filterOptions={filterOptions}/>
+            <FilterMenu filtered={filtered} setData={setData} setFilter={setFiltered} data={data} filterOptions={filterOptions}/>
         <ul>
             {filtered.map((item) => (
                 <li key={item.id}>

@@ -1,45 +1,54 @@
 
 import { useState } from "react";
-function FilterMenu({ setFilter, data, filterOptions, filtered }) {
+function FilterMenu({ setFilter, data, filterOptions, filtered, setData }) {
     const [nameChoice, setNameChoice] = useState("name1");
     const [sortDirection, setSortDirection] = useState("asc");
 
-    function ascSorter(arr, name){
-        const copy = arr.map(item=>item)
-        copy.sort((a,b)=>{
-            return a[name].localeCompare(b[name]);})
-        return copy;
-    }
-    function descSorter(arr, name){
-        const copy = arr.map(item=>item)
-        copy.sort((a,b)=>{
-            return b[name].localeCompare(a[name]);})
-        return copy;
-    }
-    function nameChoiceTracker(e){
-        console.log(e.target.value)
-        setNameChoice(e.target.value)
+    function ascSorter() {
+
+        const filterCopy = filtered.map(item => item)
+        const dataCopy = data.map(item => item)
+        filterCopy.sort((a, b) => {
+            return a[nameChoice].localeCompare(b[nameChoice]);
+        })
+        dataCopy.sort((a, b) => {
+            return a[nameChoice].localeCompare(b[nameChoice]);
+        })
+        setData(dataCopy);
+        setFilter(filterCopy);
 
     }
-    function sorter(arr, name){
-        if(sortDirection === "desc"){
-            return descSorter(arr, name);
-            
-        
+    function descSorter() {
+        const dataCopy = data.map(item => item)
+        const filterCopy = filtered.map(item => item)
+        filterCopy.sort((a, b) => {
+            return b[nameChoice].localeCompare(a[nameChoice]);
+        })
+        dataCopy.sort((a, b) => {
+            return b[nameChoice].localeCompare(a[nameChoice]);
+        })
+        setData(dataCopy);
+        setFilter(filterCopy);
+    }
+
+    function sorter(direction) {
+        setSortDirection(direction);
+        console.log(direction)
+
+        if (direction === "desc") {
+            descSorter();
         }
-        else{
-            return ascSorter(arr, name);
-            
+        else {
+            ascSorter();
+
         }
 
     }
-
-
     return (
-        <div>
-            <ul>
+        <div className="menu-container">
+            <ul className="filter-list">
                 <li>
-                    <button onClick={() => setFilter(data)}>Alla</button>
+                    <button onClick={()=>setFilter(data)}>Alla</button>
                 </li>
                 {filterOptions.map((item) => (
                     <li key={item}>
@@ -48,22 +57,28 @@ function FilterMenu({ setFilter, data, filterOptions, filtered }) {
 
 
             </ul>
-            <ul>
+            <ul className="sort-list">
                 <li>
-                    <form onClick={(e)=>nameChoiceTracker(e)}>
-                    <input type="radio" id="name1" name="name" value="name1" defaultChecked="true"/>
-                    <label htmlFor="name1">Svenskt namn</label>
-                    <input type="radio" id="name2" name="name" value="name2"/>
-                    <label htmlFor="name2">Latinskt namn</label>
+                    <form onClick={(e) => setNameChoice(e.target.value)}>
+                        <input type="radio" id="name1" name="name" value="name1"  />
+                        <label htmlFor="name1">Svenskt namn</label>
+                        <input type="radio" id="name2" name="name" value="name2" />
+                        <label htmlFor="name2">Latinskt namn</label>
                     </form>
-
-                    <button onClick={() => setFilter(ascSorter(filtered,nameChoice))}>A-Ö</button>
-                    <button onClick={() => setFilter(descSorter(filtered, nameChoice))}>Ö-A</button>
+                    <form onClick={(e)=>sorter(e.target.value)}>
+                    <input type="radio" id="asc" name="direction" value="asc"  />
+                        <label htmlFor="name1">A-ö</label>
+                        <input type="radio" id="desc" name="direction" value="desc" />
+                        <label htmlFor="name2">Ö-A</label>
+                        </form>
+                    <button onClick={() => sorter("asc")}>A-Ö</button>
+                    <button onClick={() => sorter("desc")}>Ö-A</button>
+                    
                 </li>
-                   
+
 
             </ul>
-            
+
         </div>
 
     )
