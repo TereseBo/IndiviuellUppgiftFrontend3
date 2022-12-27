@@ -63,6 +63,46 @@
       "description": "Karaktäristisk gul hatt, vit spröd fot.",
       "image": "https://images.unsplash.com/photo-1634142894671-be863247f5a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cnVzc3VsYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
       "id": 11
+    },
+    {
+      "name2": "Lactarius deterrimus",
+      "name1": "Granblodriska",
+      "family": "Riskor",
+      "image": "https://images.unsplash.com/photo-1579894323802-83bb9971eb0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFjdGFyaXVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "description": "Trattformad hatt med tydlig zonering. Orange hatt och fot, blöder orange saft vid snitt.",
+      "id": 12
+    },
+    {
+      "name1": "Skäggriska",
+      "name2": "Lactarius torminosus",
+      "family": "Riskor",
+      "description": "Rosa-aktig hatt med zonering och skägg längs hattkanten. Blöder vitt vid snitt.",
+      "image": "https://images.unsplash.com/photo-1662068821345-469fd19e2d60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFjdGFyaXVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "id": 13
+    },
+    {
+      "name1": "Mandelriska",
+      "image": "https://images.unsplash.com/photo-1662068840922-099875b3a925?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFjdGFyaXVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "description": "Sammetsluden hatt som är orange till gulbrun. Blöder vitt vid snitt.",
+      "family": "Riskor",
+      "name2": "Lactarius volemus",
+      "id": 14
+    },
+    {
+      "name1": "Blek kantarell",
+      "name2": "Cantharellus pallens",
+      "family": "Kantareller",
+      "image": "https://images.unsplash.com/photo-1506762565391-fbd721379443?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhbnRhcmVsbGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "description": "Vit till blekgul hatt. Vitt kött och karaktäristiska nedlöpande åsar på hattens undersida.",
+      "id": 15
+    },
+    {
+      "name2": "Cantharellus cibarius",
+      "name1": "Kantarell",
+      "family": "Kantareller",
+      "image":"https://images.unsplash.com/photo-1506762565391-fbd721379443?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhbnRhcmVsbGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "description": "Karaktäristiskt gul på både hatt och fot. Tydliga nedlöpande åsar på hattens undersida. ",
+      "id": 16
     }
   ]
 }

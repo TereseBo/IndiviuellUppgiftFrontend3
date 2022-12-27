@@ -18,7 +18,6 @@ function List() {
         async function fetchData() {
             const res = await fetch("http://localhost:3002/mushrooms")
             const data = await res.json();
-            console.log(data);
            const familys = data.map((item) => item.family);
               const uniqueFamilys = [...new Set(familys)];
                 setFilterOptions(uniqueFamilys);
