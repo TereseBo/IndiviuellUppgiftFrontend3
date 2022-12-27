@@ -7,6 +7,11 @@ function List() {
     const [data, setData] = useState([]);
     const [filtered, setFiltered] = useState([]);
     const[filterOptions, setFilterOptions] = useState([]);
+    const [nameChoice, setNameChoice] = useState("name1");
+
+    const [direction, setDirection] = useState("asc");
+
+
 
    
     useEffect(() => {
@@ -18,7 +23,7 @@ function List() {
               const uniqueFamilys = [...new Set(familys)];
                 setFilterOptions(uniqueFamilys);
             setData(data);
-            setFiltered(data);
+            setFiltered(data.sort((a, b) => a.name1.localeCompare(b.name1)));
 
 
             
@@ -29,7 +34,7 @@ function List() {
 
     return (
         <div>
-            <FilterMenu filtered={filtered} setData={setData} setFilter={setFiltered} data={data} filterOptions={filterOptions}/>
+            <FilterMenu filtered={filtered} setData={setData} setFilter={setFiltered} data={data} filterOptions={filterOptions} direction={direction} setDirection={setDirection} nameChoice={nameChoice} setNameChoice={setNameChoice} />
         <ul>
             {filtered.map((item) => (
                 <li key={item.id}>

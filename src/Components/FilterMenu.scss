@@ -1,0 +1,31 @@
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 3rem;
+    ul{
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: space-evenly;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0;
+        margin: 0;
+        background-color: aqua;
+        li{
+            margin: 0;
+            padding: 0;
+             input{
+                display: none;
+                &:checked + label{
+                    background-color: plum;
+                }
+            }
+      
+        }
+    }
+}
