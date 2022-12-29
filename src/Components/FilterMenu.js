@@ -44,6 +44,7 @@ function FilterMenu({ setFilter, data, filterOptions, filtered, setData }) {
     return (
         <div className="menu-container">
             <ul className="filter-list">
+                <h2>Filter:</h2>
                 <li>
                     
                     <input onClick={() => setFilter(data)} type="radio" id="alla" name="family" value="alla" defaultChecked="true"  />
@@ -57,21 +58,27 @@ function FilterMenu({ setFilter, data, filterOptions, filtered, setData }) {
                     </li>))}
             </ul>
             <ul className="sort-list">
+                <h2>Sortering:</h2>
                 <li>
-                    <form >
-                        <div>
+                    
+                        
                         <input onClick={(e) => sorter(direction, e.target.value)} type="radio" id="name1" name="name" value="name1" defaultChecked="true" />
                         <label htmlFor="name1">Svenskt namn</label>
+                      
                         <input onClick={(e) => sorter(direction,e.target.value)} type="radio" id="name2" name="name" value="name2" />
                         <label htmlFor="name2">Latinskt namn</label>
-                        </div>
-                        <div>
+
+                        
+                        </li>
+                        <li>
+                        
                         <input onClick={(e) => sorter(e.target.value, nameChoice)} type="radio" id="asc" name="direction" value="asc" defaultChecked="true" />
                         <label htmlFor="asc">A-Ö</label>
+                      
                         <input onClick={(e) => sorter(e.target.value, nameChoice)} type="radio" id="desc" name="direction" value="desc" />
                         <label htmlFor="desc">Ö-A</label>
-                        </div>
-                    </form>
+                        
+                    
                 </li>
             </ul>
         </div>

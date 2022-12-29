@@ -2,6 +2,7 @@ import Card from "../Components/Card";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import FilterMenu from "../Components/FilterMenu";
+import"./List.scss";
 
 function List() {
     const [data, setData] = useState([]);
@@ -34,7 +35,7 @@ function List() {
     return (
         <div>
             <FilterMenu filtered={filtered} setData={setData} setFilter={setFiltered} data={data} filterOptions={filterOptions} direction={direction} setDirection={setDirection} nameChoice={nameChoice} setNameChoice={setNameChoice} />
-        <ul>
+        <ul className="main-list">
             {filtered.map((item) => (
                 <li key={item.id}>
                     <Card mushroom={item} >
