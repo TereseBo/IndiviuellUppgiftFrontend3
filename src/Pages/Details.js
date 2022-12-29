@@ -2,7 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Card from "../Components/Card";
 import { Link } from "react-router-dom";
-
+import "./Details.scss";
 function Details() {
     const { id } = useParams();
     const [mushroom, setMushroom] = useState({});
@@ -26,7 +26,7 @@ function Details() {
     
     if (!mushroom) return null;
     return (
-        <div>
+        <div className="card-container">
             <Card mushroom={mushroom}>
                 <button className="action-element" onClick={deleteMushroom}>Ta bort</button>
                 <Link className="action-element" to={`/edit/${id}`}>Ändra</Link>
