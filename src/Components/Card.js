@@ -14,6 +14,7 @@ function Card({ mushroom, children }) {
                 </div>
                 <div className="text-container-main">
                     <p>{mushroom.description}</p>
+                    <p>{mushroom.rating}</p>
                 </div>
             </div>
             <div className="action-container">

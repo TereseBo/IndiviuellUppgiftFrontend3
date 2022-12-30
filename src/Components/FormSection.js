@@ -5,14 +5,14 @@ function FormSection(props) {
             return (
                 <div className="form-section">
                     <label htmlFor={props.id} > {props.label}</label>
-                    <textarea id={props.id} value={props.value} onChange={props.onChange} requirered/>
+                    <textarea id={props.id} value={props.value} onChange={props.onChange} placeholder={props.placeholder} requirered="true"/>
                 </div>
             );
         case "radio":
             return (
                 <div className="form-section">
                     <label htmlFor={props.id} > {props.label}</label>
-                    <select id={props.id} value={props.value} onChange={props.onChange} requirered>
+                    <select id={props.id} value={props.value} onChange={props.onChange} placeholder={props.placeholder} requirered="true">
                         <option value="Kremlor">Kremlor</option>
                         <option value="Riskor">Riskor</option>
                         <option value="Kantareller">Kantareller</option>
@@ -23,7 +23,7 @@ function FormSection(props) {
             return (
                 <div className="form-section">
                     <label htmlFor={props.id} > {props.label}</label>
-                    <input type="text" id={props.id} value={props.value} onChange={props.onChange} requirered />
+                    <input type="text" id={props.id} value={props.value} placeholder={props.placeholder} onChange={props.onChange} requirered ="true"/>
                 </div>
             );
         case "submit":
