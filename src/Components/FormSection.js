@@ -17,6 +17,8 @@ function FormSection(props) {
                         <option value="Riskor">Riskor</option>
                         <option value="Kantareller">Kantareller</option>
                         <option value="Soppar">Soppar</option>
+                        <option value="Taggsvampar">Taggsvampar</option>
+                        <option value="Övriga">Övriga</option>
                     </select>
                 </div>);
         case "text":

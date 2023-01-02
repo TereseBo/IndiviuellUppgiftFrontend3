@@ -20,6 +20,7 @@ function Registration() {
         });
         if(res.ok) {
             console.log("Post successful");
+            alert("Din svamp har registrerats!");
             setMushroom({
                 name1: "",
                 name2: "",

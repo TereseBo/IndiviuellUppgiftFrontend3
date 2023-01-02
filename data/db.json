@@ -5,9 +5,8 @@
       "name2": "Russula xerampelina",
       "family": "Kremlor",
       "description": "Varierande hattfärg från rött till olivgrönt. Vit fot, ofta med röda inslag. Karakteristisk lukt av skaldjur.",
-      "image": "https://images.unsplash.com/photo-1600427488804-ece8c13bbf99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-      "id": 4,
-      "rating": 2
+      "image": "https://images.unsplash.com/photo-1664872884871-dd42825cfecf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjMzfHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "id": 4
     },
     {
       "name1": "Blodsopp",
@@ -15,46 +14,39 @@
       "family": "Soppar",
       "image": "https://images.unsplash.com/photo-1600010437709-10176a56ea45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9sZXR1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
       "description": "Oliv eller mörkbrun hatt, fot täckt av små röda prickar.",
-      "id": 5,
-      "rating": 3
+      "id": 5
     },
     {
       "name1": "Grynsopp",
       "name2": "Suillus granulatus",
       "family": "Soppar",
-      "image": "https://images.unsplash.com/photo-1595669994887-c202e84f06da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ym9sZXR1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "image": "https://images.unsplash.com/photo-1645609107415-a88f2954a455?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDM4fHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
       "description": "Hatt brungul till rödgul, slemmig vid regn. Vitgul fot med små vita gryn övertill, grynen mörknar med ålder.",
-      "id": 6,
-      "rating": 3
+      "id": 6
     },
     {
       "name1": "Sandsopp",
       "name2": "Suillus variegatus",
       "family": "Soppar",
-      "image": "https://images.unsplash.com/photo-1597642083528-b90f8aea3e80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Ym9sZXR1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "image": "https://images.unsplash.com/photo-1663621071113-d42c2a775123?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzk5fHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
       "description": "Gulbrun hatt med karaktäristiska mörkare fjäll. Fot i samma färg som hatt, ofta blånande vid snitt.",
-      "id": 7,
-
-      "rating": 4
-
+      "id": 7
     },
     {
       "name1": "Smörsopp",
       "name2": "Suillus luteus",
       "family": "Soppar",
-      "image": "https://images.unsplash.com/photo-1607031145007-65c132b175ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJvbGV0dXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "image": "https://images.unsplash.com/photo-1663340115500-20dab5a6c75b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODE0fHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
       "description": "Välvd, ofta slemmig brunaktig hatt. Fot vit till gul med ring som ibland försvinner med åldern.",
-      "id": 8,
-      "rating": 4
+      "id": 8
     },
     {
       "name1": "Stensopp",
       "name2": "Boletus edulis",
       "family": "Soppar",
-      "image": "https://images.unsplash.com/photo-1637600425532-917791442bd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJvbGV0dXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "image": "https://images.unsplash.com/photo-1606897759010-2d7bb9478e18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzI4fHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
       "description": "Hatt ljus till mörkbrun. Fot vit till ljusbrun täckt med ett ljust ådernät.",
-      "id": 9,
-      "rating": 5
+      "id": 9
     },
     {
       "name1": "Tegelkremla",
@@ -62,8 +54,7 @@
       "family": "Kremlor",
       "description": "Hatt tegelröd till gulaktig. Kött grånande med åldern.",
       "image": "https://images.unsplash.com/photo-1633859221184-7e40c3a7356a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cnVzc3VsYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-      "id": 10,
-      "rating": 4
+      "id": 10
     },
     {
       "name1": "Gulkremla",
@@ -71,26 +62,23 @@
       "family": "Kremlor",
       "description": "Karaktäristisk gul hatt, vit spröd fot.",
       "image": "https://images.unsplash.com/photo-1634142894671-be863247f5a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cnVzc3VsYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
-      "id": 11,
-      "rating": 2
+      "id": 11
     },
     {
       "name2": "Lactarius deterrimus",
       "name1": "Granblodriska",
       "family": "Riskor",
-      "image": "https://images.unsplash.com/photo-1579894323802-83bb9971eb0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFjdGFyaXVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "image": "https://images.unsplash.com/photo-1621350988025-dca7ffb84d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjU1fHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
       "description": "Trattformad hatt med tydlig zonering. Orange hatt och fot, blöder orange saft vid snitt.",
-      "id": 12,
-      "rating": 2
+      "id": 12
     },
     {
       "name1": "Skäggriska",
       "name2": "Lactarius torminosus",
       "family": "Riskor",
       "description": "Rosa-aktig hatt med zonering och skägg längs hattkanten. Blöder vitt vid snitt.",
-      "image": "https://images.unsplash.com/photo-1662068821345-469fd19e2d60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFjdGFyaXVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-      "id": 13,
-      "rating": 4
+      "image": "https://images.unsplash.com/photo-1579894323802-83bb9971eb0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjUzfHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "id": 13
     },
     {
       "name1": "Mandelriska",
@@ -98,27 +86,79 @@
       "description": "Sammetsluden hatt som är orange till gulbrun. Blöder vitt vid snitt.",
       "family": "Riskor",
       "name2": "Lactarius volemus",
-      "id": 14,
-      "rating": 3
+      "id": 14
     },
     {
-      "name1": "Blek kantarella",
+      "name1": "Blek kantarell",
       "name2": "Cantharellus pallens",
       "family": "Kantareller",
-      "image": "https://images.unsplash.com/photo-1506762565391-fbd721379443?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhbnRhcmVsbGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-      "description": "Vit till blekgul hatt. Vitt kött och karaktäristiska nedlöpande åsar på hattens undersida.",
-      "id": 15,
-      "rating": 5
+      "description": "Blekgul hatt och fot i samma färg. Karaktäristiska nedlöpande åsar och vitt kött.",
+      "image": "https://images.unsplash.com/photo-1514293068685-cd091c89d982?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQwfHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "id": 17
     },
     {
-      "name2": "Cantharellus cibarius",
-      "name1": "Kantarell",
+      "name1": "Motaggsvamp",
+      "name2": "Sarcodon squamosus",
+      "family": "Taggsvampar",
+      "description": "Brun hatt med stora fjäll, ljusare fot. Växer med tall.",
+      "image": "https://images.unsplash.com/photo-1558003933-3e72af7ddcb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjg3fHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "id": 18
+    },
+    {
+      "name1": "Trattkantarell",
+      "name2": "Craterellus tubaeformis",
       "family": "Kantareller",
+      "description": "Tunn hatt med brunaktig ovansida och tydlig navel. Ihålig, tunn gulaktig fot.",
       "image": "https://images.unsplash.com/photo-1506762565391-fbd721379443?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhbnRhcmVsbGVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-      "description": "Karaktäristiskt gul på både hatt och fot. Tydliga nedlöpande åsar på hattens undersida. ",
-      "id": 16,
-      "rating": 0
+      "id": 19
+    },
+    {
+      "name1": "Blek taggsvamp",
+      "name2": "Hydnum repandum",
+      "family": "Taggsvampar",
+      "description": "Vit till rödgul hatt och fot i samma färg. Kompakt kött och nedlöpande taggar under hatten",
+      "image": "https://images.unsplash.com/photo-1614324702750-b487790ec321?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTgwfHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "id": 20
+    },
+    {
+      "name1": "Rödgul taggsvamp",
+      "name2": "Hydnum rufescens s. lat.",
+      "family": "Taggsvampar",
+      "description": "Rödgul hatt och fot med samma färg. Ej nedlöpande taggar och något spenslig fot.",
+      "image": "https://images.unsplash.com/photo-1629457442277-918387fec70c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZnVuZ3VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "id": 21
+    },
+    {
+      "name1": "Kantarell",
+      "name2": "Cantharellus cibarus",
+      "family": "Kantareller",
+      "description": "Gul hatt och fot med nedlöpande åsar och vitt kött.",
+      "image": "https://images.unsplash.com/photo-1500060918932-df2d9b89e6c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjkxfHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "id": 22
+    },
+    {
+      "name1": " Grönfläckig vinriska",
+      "name2": "Lactarius semisanguifluus",
+      "family": "Riskor",
+      "description": "Zonerad hatt med gröna toner, vit till orange grundfärg. Blöder orange vid snitt.",
+      "image": "https://images.unsplash.com/photo-1570834754033-af8d886a3193?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fGZ1bmd1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "id": 23
+    },
+    {
+      "name1": "Brunsopp",
+      "name2": "Imleria badia",
+      "family": "Soppar",
+      "description": "Kastanjebrun hatt, först luden och sedan slät. Ljust rörlager som ofta blånar vit tryck.Ljus fot med bruna stråk.",
+      "image": "https://images.unsplash.com/photo-1541295918476-0882ae37137b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGZ1bmd1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "id": 24
+    },
+    {
+      "name1": "Björksopp",
+      "name2": "Leccinum scabrum",
+      "family": "Soppar",
+      "description": "Välvd brun hatt, vit fot med svarta till mörkbruna tofsar. Köttet fortsatt vitt vid snitt.",
+      "image": "https://images.unsplash.com/photo-1599312382594-1d9bf3e9c534?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTU2fHxmdW5ndXN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "id": 25
     }
-
   ]
 }

@@ -41,33 +41,6 @@ function FilterMenu({ setFilter, data, filterOptions, filtered, setData }) {
         }
 
     }
-    function sortByRating(){
-        console.log(direction)
-        
-        const dataCopy = data.map(item => item)
-        const filterCopy = filtered.map(item => item)
-        if(direction==="desc"){
-        dataCopy.sort(compareFn);
-        filterCopy.sort(compareFn);
-        }
-        else{
-            dataCopy.sort(compareFn).reverse();
-            filterCopy.sort(compareFn).reverse();
-        }
-        function compareFn(a, b) {
-            if (a.rating<b.rating) {
-              return -1;
-            }
-            if (a.rating>b.rating) {
-              return 1;
-            }
-            if(a.rating===b.rating)
-            return 0;
-          }
-
-        setData(dataCopy);
-        setFilter(filterCopy);
-    }
     return (
         <div className="menu-container">
             <ul className="filter-list">
@@ -106,11 +79,6 @@ function FilterMenu({ setFilter, data, filterOptions, filtered, setData }) {
                         <label htmlFor="desc">Ö-A</label>
                         
                     
-                </li>
-            </ul>
-            <ul className="test">
-                <li>
-                    <button onClick={sortByRating}>Sortera efter betyg</button>
                 </li>
             </ul>
         </div>

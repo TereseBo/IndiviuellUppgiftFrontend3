@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
 
       <header className="App-header">
-        <Link to="/">List</Link>
+        <Link to="/">Översikt</Link>
         <Link to="/registration">Registrering</Link>
       </header>
       <Routes>
