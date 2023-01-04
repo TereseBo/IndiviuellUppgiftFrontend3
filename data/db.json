@@ -53,7 +53,7 @@
       "name2": "Russula decolorans",
       "family": "Kremlor",
       "description": "Hatt tegelröd till gulaktig. Kött grånande med åldern.",
-      "image": "https://images.unsplash.com/photo-1633859221184-7e40c3a7356a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cnVzc3VsYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "image": "https://images.unsplash.com/photo-1510771972925-9a7ad7d61245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG11c2hyb29tJTIwcmVkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
       "id": 10
     },
     {
@@ -61,7 +61,7 @@
       "name2": "Russula claroflava",
       "family": "Kremlor",
       "description": "Karaktäristisk gul hatt, vit spröd fot.",
-      "image": "https://images.unsplash.com/photo-1634142894671-be863247f5a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cnVzc3VsYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "image": "https://images.unsplash.com/photo-1663971623506-26355330dcb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjI0fHxtdXNocm9vbSUyMHJlZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
       "id": 11
     },
     {
@@ -137,7 +137,7 @@
       "id": 22
     },
     {
-      "name1": " Grönfläckig vinriska",
+      "name1": "Grönfläckig vinriska",
       "name2": "Lactarius semisanguifluus",
       "family": "Riskor",
       "description": "Zonerad hatt med gröna toner, vit till orange grundfärg. Blöder orange vid snitt.",
