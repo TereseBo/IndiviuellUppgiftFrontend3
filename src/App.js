@@ -15,6 +15,7 @@ function App() {
       </header>
       <Routes>
         <Route path="/" element={<List />} />
+        <Route path="IndiviuellUppgiftFrontend3/" element={<List />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/details/:id" element={<Details />} />
         <Route path="/edit/:id" element={<Edit/>} />
